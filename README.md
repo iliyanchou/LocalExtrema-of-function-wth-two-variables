@@ -39,18 +39,12 @@ A Python-based tool for automated analysis of functions with two variables ($x$ 
 
 4.  **Run the script:**
     ```bash
-    python3 funcExtr.py
+    python3 main.py
     ```
 
 ## 📖 Usage
 
-Modify the function `f` in `funcExtr.py` to analyze different surfaces.
-
-**Example (Saddle Point):**
-```python
-f = x**2 - y**2
-
-
+Modify the function `f` in `main.py` to analyze different surfaces
 
 
 Example (Trigonometric Surface):
@@ -70,7 +64,7 @@ The function: sin(x)*sin(y) reaches as it follows: local max which is: 1.0000000
 
 
 
-🛠️ Roadmap
+## 🛠️ Roadmap
 [ ] Add Matplotlib integration for 3D surface plotting.
 [ ] Extend support for functions with $n$ variables.
 [ ] Export results to LaTeX or PDF reports.
