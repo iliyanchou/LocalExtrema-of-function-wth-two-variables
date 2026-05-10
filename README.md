@@ -46,7 +46,7 @@ Open `main.py` and modify the function `f`.
 **Example:**
 ```python
 f = smp.sin(x) * smp.sin(y)
-
+```
 The script will:
 * **Print** the classification of every critical point in the terminal.
 * **Open** an interactive 3D window showing the function's surface.
@@ -56,12 +56,12 @@ The script will:
 The points: {x: 0, y: 0} 
 are stationary.
 The function: x**2 + y**2 , reaches as it follows: local min which is: 0
-
+```
 ## 🛠️ Roadmap
-[x] Add Matplotlib integration for 3D surface plotting.
-[ ] Extend support for functions with $n$ variables.
-[ ] Implement automatic marking of critical points on the 3D plot.
-[ ] Export results to LaTeX or PDF reports.
+- [x] Add Matplotlib integration for 3D surface plotting.
+- [ ] Extend support for functions with $n$ variables.
+- [ ] Implement automatic marking of critical points on the 3D plot.
+- [ ] Export results to LaTeX or PDF reports.
 
 
 Developed by: Iliya Granchulov 🚗💨
